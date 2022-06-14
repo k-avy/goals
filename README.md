@@ -32,3 +32,36 @@ go build ./cmd/gol
 ```bash
  go install ./cmd/gols
 ```
+
+## Features
+
+1. To get path of current working directory we can use following command:
+
+```bash
+gols current
+```
+
+2. To get all the files and folders of given path we can use following command.
+
+```bash
+gols all -p "path"
+```
+
+3. To get all the files of given path we can use following command.
+
+```bash
+gols file -p "path"
+```
+
+4. To get all the folders of given path we can use following command:
+
+ ```bash
+gols folder -p "path"
+```
+
+5. You can also take help from the following command:
+
+ ```bash
+gols help
+```
+
