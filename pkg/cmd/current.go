@@ -11,7 +11,7 @@ func ListCurrent() *cobra.Command {
 
 	currentCmd := &cobra.Command{
 		Use:   "current",
-		Short: "Command line tool to list files and folders of current path",
+		Short: "Command line tool to print current path",
 
 		Run: func(cmd *cobra.Command, args []string) {
 			path := gols.FindCurrentPath()
